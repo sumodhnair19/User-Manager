@@ -1,0 +1,44 @@
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    flex-direction: row;
+    height: 3.667rem;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #a4b7c1;
+    .brand-w-button {
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        li {
+          float: left;
+          .brand-logo {
+            width: 50px;
+            height: 25px
+          }
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          background-color: #111;
+        }
+      }
+      .is-active {
+        background-color: blue;
+      }
+
+    }
+
+}

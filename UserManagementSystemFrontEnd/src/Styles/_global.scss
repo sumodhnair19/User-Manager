@@ -1,0 +1,82 @@
+html{
+    font-size: 15px;
+  }
+
+html,
+body,
+ul,
+ol {
+    margin:  0;
+    padding: 0;
+}
+i{
+    color: inherit;
+}
+ul{
+    display: block;
+    list-style: none;
+}
+a{
+    transition:.5s;
+    text-decoration: none;
+}
+*{
+    outline: none !important;
+    &:focus, &:hover{
+        outline: none !important;
+    }
+}
+
+@font-face {
+  font-family: 'Museo300';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../Assets/Fonts/museo/Museo300-Regular.otf'); /* IE9 Compat Modes */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Museo300' !important;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $body-color;
+    text-align: left;
+    background-color: $body-bg;
+}
+
+.app-body{
+    margin-top: 3.667rem;
+}
+.main{
+    margin-left: 16rem;
+    flex: 1;
+    min-width: 0;
+    padding: 1rem 2rem;
+    transition: margin .3s ease-in-out;
+    &.left-closed{
+        margin-left: 0;
+    }
+    @media only screen and (max-width: 767px){
+        margin-left: 0;
+    }
+}
+.bg-primary{
+    color: #fff;
+    background-color: $primary-color !important;
+}
+.text-primary{
+    color: $primary-color !important;
+}
+.xs-visible{
+    @media only screen and (max-width: 479px){
+        display: none;
+    }
+}
+.md-visible{
+    @media only screen and (max-width: 767px){
+        display: none;
+    }
+}

@@ -7,9 +7,9 @@ This Project is created using ReactJS for frontend, and NodeJS for backend with 
  - [Directories](#directories)
  - [Usage](#Usage)
  - [Features](#features)
- - [ - - User List Page](#User List Page)
- - [ - - Groups List Page](#Groups List Page)
- - [ - - Dashboard Page](#Dashboard Page)
+ - [ - - Users](#Users)
+ - [ - - Groups](#Groups)
+ - [ - - Dashboard](#Dashboard)
  - [ - - Others](#others)
 
 ## Directories:
@@ -37,7 +37,7 @@ $ npm start
 
 ## Features
 
-### User List Page
+### User
 
 1) I can see a list of existing users
 2) I can create new users
@@ -47,7 +47,7 @@ $ npm start
 6) I can edit users where I can assign him/her to some other group and also change basic details
 7) I can search a user based on Id, name etc.
 
-### Groups List Page
+### Groups
 
 1) I can see a list of existing group
 2) I can create new groups
@@ -56,7 +56,7 @@ $ npm start
 6) I can view list of users who are part of the group
 7) I can search a group based on Id, name etc.
 
-### Dashboard Page
+### Dashboard
 
 1) Basic summary showing the count of Groups, Users present.
 

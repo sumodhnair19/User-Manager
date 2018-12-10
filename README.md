@@ -7,9 +7,9 @@ This Project is created using ReactJS for frontend, and NodeJS for backend with 
  - [Directories](#directories)
  - [Usage](#Usage)
  - [Features](#features)
- - [ - - User List Page](#UserListPage)
- - [ - - Groups List Page](#GroupsListPage)
- - [ - - Dashboard Page](#DashboardPage)
+ - [ - - User List Page](#User List Page)
+ - [ - - Groups List Page](#Groups List Page)
+ - [ - - Dashboard Page](#Dashboard Page)
  - [ - - Others](#others)
 
 ## Directories:

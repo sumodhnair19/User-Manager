@@ -98,7 +98,7 @@ class Groups extends Component{
                                                 value={this.state.searchterm}
                                                 name="searchterm"
                                                 className="form-control form-control-lg"
-                                                placeholder="Search User"
+                                                placeholder="Search Group"
                                                 type="text" />
                                         </div>
                                     </div>

@@ -37,7 +37,7 @@ $ npm start
 
 ## Features
 
-### User
+### Users
 
 1) I can see a list of existing users
 2) I can create new users

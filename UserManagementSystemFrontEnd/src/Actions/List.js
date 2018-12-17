@@ -20,27 +20,6 @@ export const fetchUsers = (skip, limit) => async (dispatch, getState, api) => {
     });
 };
 
-//Fetcj more users
-export const MORE_USERS = 'MORE_USERS';
-export const moreUsers = (skip, limit) => async (dispatch, getState, api) => {
-    const usersData = {
-        skip,
-        limit
-    };
-    const res = await api.post(FETCH_USERS_API, usersData)
-        .then(function (res) {
-            return res;
-        })
-        .catch(function (err) {
-            return err.response;
-        });
-
-    dispatch({
-        type: MORE_USERS,
-        payload: res.data
-    });
-};
-
 //Search User
 export const SEARCH_USER = 'SEARCH_USER';
 export const searchUser = (term, groupid) => async (dispatch, getState, api) => {
@@ -98,7 +77,6 @@ export const fetchGroups = () => async (dispatch, getState, api) => {
         .catch(function (err) {
             return err.response;
         });
-debugger;
     dispatch({
         type: FETCH_GROUPS,
         payload: res.data

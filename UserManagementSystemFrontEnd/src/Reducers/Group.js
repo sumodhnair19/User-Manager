@@ -4,7 +4,6 @@ export default (state = null, action) => {
   let data = {};
     switch (action.type) {
         case FETCH_GROUP:
-        debugger;
         data = action.payload ? action.payload : action.payload.code;
         return data;
         default:

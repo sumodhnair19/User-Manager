@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
-import {fetchUsers, moreUsers, fetchGroups, searchUser} from '../Actions/List';
+import {fetchUsers, fetchGroups, searchUser} from '../Actions/List';
 import {handleModal} from "../Actions/Global";
 import Loader from '../SharedComponents/Loader';
 import UserModal from '../Components/UserModal';
@@ -128,4 +128,4 @@ function mapStateToProps(globalState) {
     };
 }
 
-export default connect(mapStateToProps, {fetchUsers, moreUsers, fetchGroups, searchUser, handleModal})(Users);
+export default connect(mapStateToProps, {fetchUsers, fetchGroups, searchUser, handleModal})(Users);
